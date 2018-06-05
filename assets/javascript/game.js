@@ -25,7 +25,6 @@ gLettDiv.textContent = guessedLetters;
 
 compLetter = letters[Math.floor(Math.random() * letters.length)];
 compLetter = compLetter.toUpperCase();
-alert(compLetter);
 
 document.onkeyup = function(event) {
     if(event.keyCode >= 65 && event.keyCode <= 90){
